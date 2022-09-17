@@ -3,6 +3,8 @@ body{
 }
 .header{
     width: 100%;
+    position: fixed;
+    z-index: 100;
     height: 120px;
     background: #0047ba;
 
@@ -26,5 +28,66 @@ body{
     font-size: 16px;
 }
 .en{
-    margin-left: 1051px
+    margin-left: 1033px;
+    position: relative;
+    bottom: 33px;
+}
+.t1{
+    margin-left: 1073px;
+    position: relative;
+    color: white;
+    font-size: larger;
+    bottom: 77px;
+
+}
+.share{
+    margin-left: 1087px;
+    position: relative;
+    bottom: 115px;
+}
+.imgbaground{
+    width: 100%;
+    height: 830px;
+}
+.bottle{
+    width: 631px;
+    position: absolute;
+    top: 200px;
+    height: 633px;
+    margin-bottom: 166px;
+}
+.img1{
+    margin-top: 119px;
+    width: 100%;
+    height: 711px;
+    
+}
+.logoimg{
+    width: 546px;
+    float: left;
+    height: 262px;
+    
+    margin-left: 635px;
+    position: relative;
+    bottom: 560px;
+    z-index: 1
+}
+.button{
+    width: 526px;
+    height: 64px;
+    margin-top: -374px;
+    margin-left: 691px;
+    letter-spacing: 2px;
+    z-index: 99;
+    position: relative;
+
+}
+button{
+    margin-left: 21px;
+    color: #0047ba;
+    border-color: #0047ba;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 16px 42px;
 }
