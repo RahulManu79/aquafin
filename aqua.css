@@ -27,6 +27,9 @@ body{
 .material-symbols-outlined{
     font-size: 16px;
 }
+.en-share{
+    cursor: pointer;
+}
 .en{
     margin-left: 1033px;
     position: relative;
@@ -87,7 +90,63 @@ button{
     color: #0047ba;
     border-color: #0047ba;
     background: none;
+    
     border-radius: 5px;
     cursor: pointer;
     padding: 16px 42px;
+}
+.footer{
+    
+    width: 100%;
+    height: 253px;
+    padding-top: 50px;
+}
+.footercontainer{
+    width: 1024px;
+    height: 173px;
+    margin: auto;
+    padding: 0px 20px;
+    
+}
+.row{
+    height: 173px;
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+}
+.foter-col{
+    line-height: 27px;
+    width: 16%;
+    
+    padding: 0px 15px;
+
+}
+.foter-col a{
+    text-decoration: none;
+    color: #0047ba;
+}
+.social{
+    
+    width: 103px;
+    height: 30px;
+    margin-top: -166px;
+    margin-left: 935px;
+    cursor: pointer;
+}
+.footerlogo{
+    margin-left: 894px;
+    margin-top: 61px;
+}
+.terms{
+    
+color: #0047ba;
+text-align: center;
+font-size: 11px;
+padding-top: 28px;
+padding-bottom: 20px;
+line-height: 1.5;
+padding-left: 30px;
+padding-right: 30px;
 }
