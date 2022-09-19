@@ -90,11 +90,21 @@ button{
     color: #0047ba;
     border-color: #0047ba;
     background: none;
-    
+
     border-radius: 5px;
     cursor: pointer;
     padding: 16px 42px;
 }
+
+
+.b1:hover{
+    background-color: #0047ba;
+    color: #fff;
+    transition: 0.25s;
+
+}
+
+
 .footer{
     
     width: 100%;
